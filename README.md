@@ -3,6 +3,9 @@
 ###安装说明
 
 此语言包由 **Jsthon Wong** 制作发行  
+
+感谢 [Flarum中文站](http://flarum.org.cn） 及 Flarum交流群 （QQ群号:188723593） 提供帮助
+
   
 基于 [Flarum](http://flarum.org) 原生语言包翻译  
 整体语言风格较为细腻自然  
@@ -26,5 +29,5 @@
 [Issuse on GitHub>>](https://github.com/jsthon/Flarum-zh-CN/issues)  
   
 或联系作者本人  
-* **博客/Blog:** <https://jsthon.com>
+* **博客/Blog:** <http://jsthon.com>
 * **邮箱/Mail:** jsthonwong@gmail.com  
