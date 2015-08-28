@@ -8,17 +8,19 @@
 
   
 基于 [Flarum](http://flarum.org) 原生语言包翻译  
-整体语言风格较为细腻自然  
-符合多数中国人思维习惯  
-词条翻译基本没有遗漏  
-可直接用于生产环境  
+整体语言风格较细腻自然  
+符合多数中国人思维习惯
   
 * **DEMO:** [万花筒(WOHONT.COM)](https://wohont.com/)
 * **GitHub:** <https://github.com/jsthon/Flarum-zh-CN/>
   
-**使用说明：**  
-1.下载后解压并覆盖至网站根目录  
-2.进入网站后台切换至中文语言包  
+**临时使用说明：**  
+1.下载后解压目录
+2.将所有的cn.yml重命名为en.yml
+3.将修改后的文件覆盖至网站根目录
+4.刷新缓存
+
+后期将更新正式直装版本
   
 [打包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
   
