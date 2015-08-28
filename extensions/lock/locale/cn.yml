@@ -1,0 +1,8 @@
+lock:
+  discussion_locked_notification: "{username} 锁定了你的话题"
+  discussion_locked_post: "{username} 锁定了此话题"
+  discussion_unlocked_post: "{username} 解锁了此话题"
+  notify_discussion_locked: 我的话题被锁定
+  locked: Locked
+  lock: 锁定
+  unlock: 解除锁定

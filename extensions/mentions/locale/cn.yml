@@ -1,0 +1,10 @@
+mentions:
+  reply_to_post: "回复 #{number}"
+  post_mentioned_notification: "{username} 回复了你的内容"
+  others: "{count} 个人"
+  user_mentioned_notification: "{username} 提到了你"
+  post_mentioned_by: "{users} 回复了它"
+  you: 你
+  reply_link: 回复
+  notify_post_mentioned: 有人回复我的内容
+  notify_user_mentioned: 有人提到我

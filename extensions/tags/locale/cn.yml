@@ -1,0 +1,18 @@
+tags:
+  discussion_tagged_post:
+    one: "{username} {action} 分类"
+    other: "{username} {action} 分类"
+  added_tags: "加入分类 {tags}"
+  removed_tags: "移除分类 {tags}"
+  tag_new_discussion_title: 选择分类
+  edit_discussion_tags_title: "编辑 {title} 的分类"
+  edit_discussion_tags_link: 编辑分类
+  choose_primary_tags:
+    one: 选择一个节点
+    other: "选择 {count} 个节点"
+  choose_secondary_tags:
+    one: 选择一个标签
+    other: "选择 {count} 个标签"
+  confirm: 确定
+  more: 更多...
+  deleted: 删除

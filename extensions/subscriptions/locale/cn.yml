@@ -1,0 +1,13 @@
+subscriptions:
+  following: 关注
+  ignoring: 忽略
+  follow: 关注
+  unfollow: 取消关注
+  ignore: 忽略
+  notify_new_post: 我关注的话题被回复
+  new_post_notification: "{username} 回复了你关注的内容"
+  not_following: 常规
+  not_following_description: 仅在有人@提到我时提醒我
+  following_description: 当有人回复此话题时提醒我
+  ignoring_description: 不接收任何提醒并隐藏此话题
+  unignore: 取消忽略

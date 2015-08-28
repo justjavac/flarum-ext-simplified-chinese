@@ -1,0 +1,8 @@
+sticky:
+  discussion_stickied_notification: "{username} 置顶了你的话题"
+  discussion_stickied_post: "{username} 置顶了此话题"
+  discussion_unstickied_post: "{username} 取消置顶此话题"
+  notify_discussion_stickied: 我的话题被置顶
+  stickied: 置顶
+  sticky: 置顶
+  unsticky: 取消置顶
