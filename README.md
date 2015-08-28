@@ -4,7 +4,7 @@
 
 此语言包由 **Jsthon Wong** 制作发行  
 
-感谢 [Flarum中文站](http://flarum.org.cn) 及 Flarum交流群 （QQ群号:188723593） 提供帮助
+感谢 [Flarum中文站](http://flarum.org.cn) 及 [Flarum CN QQ群](http://shang.qq.com/wpa/qunwpa?idkey=ce16b9ac4b222fce3102c41fcc39048cba045d1d242bc33ed5e845c1166c138a) 提供帮助
 
   
 基于 [Flarum](http://flarum.org) 原生语言包翻译  
