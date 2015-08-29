@@ -15,13 +15,11 @@
 * **GitHub:** <https://github.com/jsthon/Flarum-zh-CN/>
   
   
-**使用说明：**
+###使用说明
+ 
 * **安装中文插件：**https://github.com/binaryoung/Flarum-zh_CN
   
 * **下载解压并覆盖中文语言包文件**
-  
-[中文语言包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
-[中文插件ZIP下载>>](https://github.com/binaryoung/Flarum-zh_CN/archive/master.zip)  
   
 ###联系作者
 如有疑问或建议  
@@ -32,3 +30,8 @@
 或联系作者本人  
 * **博客/Blog:** <http://jsthon.com>
 * **邮箱/Mail:** jsthonwong@gmail.com  
+
+ 
+###下载链接
+[中文语言包ZIP下载 >>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
+[中文插件ZIP下载 >>](https://github.com/binaryoung/Flarum-zh_CN/archive/master.zip)  
