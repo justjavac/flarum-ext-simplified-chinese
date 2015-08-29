@@ -20,7 +20,7 @@ core:
   controls: 操作
   delete: 删除
   delete_forever: 永久删除
-  deleted: "[已注销]"
+  deleted: "[已销户]"
   disclose_online: 允许其他人查看我的在线状态
   discussion_renamed_post: "{username} 将标题 {old} 修改成 {new}."
   discussion_renamed_notification: "{username} 修改了标题"
