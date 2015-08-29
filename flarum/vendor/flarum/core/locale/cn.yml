@@ -17,7 +17,7 @@ core:
   confirm_discard_edit: 你还没保存更改，确定放弃？
   confirm_discard_reply: 你还没有发表该回复，确定要丢弃它？
   confirmation_email_sent: "我们已经发送一封确认邮件至 {email} ，如果长时间未能收到它，请检查邮箱的垃圾邮件文件夹。"
-  controls: Controls
+  controls: 操作
   delete: 删除
   delete_forever: 永久删除
   deleted: "[已注销]"
@@ -38,18 +38,18 @@ core:
   forgot_password_help: 输入您的电子邮箱地址，我们会向它发送一个链接用来重设密码。
   forgot_password_link: 忘记密码？
   full_screen: 全屏
-  go_to: "Go to {location}"
-  group_admin: Admin
+  go_to: "转到 {location}"
+  group_admin: 管理员
   group_admins: 管理员
-  group_guest: Guest
-  group_guests: Guests
-  group_member: Member
-  group_members: Members
-  group_mod: Mod
+  group_guest: 游客
+  group_guests: 游客
+  group_member: 会员
+  group_members: 会员
+  group_mod: 操作员
   group_mods: 操作员
   invalid_login: 您输入的账户信息不正确！
   joined: "加入于 {ago}"
-  joined_the_forum: Joined the forum
+  joined_the_forum: 加入我们
   load_more: 载入更多
   log_in: 登入
   log_in_to_reply: 登入后回复
@@ -65,23 +65,23 @@ core:
   original_post: 最先发布
   password: 密码
   password_reset_email_sent: 我们已经向您发送了一封包含了重置密码链接的电子邮件。如果长时间未能收到它，请检查邮箱的垃圾邮件文件夹。
-  period_later: "{period} later"
+  period_later: "{period} 后"
   post_discussion: 发布话题
   post_edited: "{username} 编辑于 {ago}"
   post_number: "Post #{number}"
   post_reply: 发表回复
-  posted_a_reply: Posted a reply
+  posted_a_reply: 发表了一个回复
   posts: 回复
   powered_by_flarum: 由 Flarum 构建
   privacy: 隐私相关
   profile: 我的资料
   prompt_rename_discussion: 为此话题输入新的标题：
-  recover_password: Recover Password
+  recover_password: 重置密码
   refresh: 刷新
   remove: 移除
-  rename: Rename
+  rename: 修改标题
   reply: 回复
-  reply_posted: Your reply was posted.
+  reply_posted: 你的回复已发表
   restore: 恢复
   save_changes: 保存更改
   search_all_discussions: '所有话题中搜索 "{query}"'
@@ -95,16 +95,16 @@ core:
   sort_relevance: Relevance
   sort_top: 热门话题
   start_a_discussion: 创建话题
-  started_a_discussion: Started a discussion
+  started_a_discussion: 发布了一个话题
   unread_posts: "{count} 未读"
   upload: 上传
   username: 用户名
   username_or_email: 用户名 或 邮箱
-  users: Users
-  view: View
+  users: 用户
+  view: 查看
   viewing_posts:
-    one: "{index} of {count} post"
-    other: "{index} of {count} posts"
+    one: "{index} / {count} 条"
+    other: "{index} / {count} 条"
   welcome_user: "欢迎您, {username}!"
   write_a_post: 说点什么...
   write_a_reply: 回复什么...
