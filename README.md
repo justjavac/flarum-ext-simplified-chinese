@@ -15,10 +15,15 @@
 * **GitHub:** <https://github.com/jsthon/Flarum-zh-CN/>
   
 **临时使用说明：**  
-1.下载后解压目录
-2.将所有的cn.yml重命名为en.yml
-3.将修改后的文件覆盖至网站根目录
-4.刷新缓存
+ 
+1.下载后解压目录 
+ 
+2.将所有的 cn.yml 重命名为 en.yml 
+ 
+3.将修改后的文件覆盖至网站根目录 
+ 
+4.删除缓存 （删除 /flarum/assets 目录下文件 (其中该目录下的 avatars 与 fonts 文件夹保留)
+ 
 
 后期将更新正式直装版本
   
