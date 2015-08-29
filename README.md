@@ -14,20 +14,14 @@
 * **DEMO:** [万花筒(WOHONT.COM)](https://wohont.com/)
 * **GitHub:** <https://github.com/jsthon/Flarum-zh-CN/>
   
-**临时使用说明：**  
- 
-1.下载后解压目录 
- 
-2.将所有的 cn.yml 重命名为 en.yml 
- 
-3.将修改后的文件覆盖至网站根目录 
- 
-4.删除缓存 （删除 /flarum/assets 目录下文件 (其中该目录下的 avatars 与 fonts 文件夹保留)
- 
-
-后期将更新正式直装版本
   
-[打包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
+**使用说明：**
+1. 安装中文插件：https://github.com/binaryoung/Flarum-zh_CN
+  
+2. 下载解压并覆盖语言包文件
+  
+[语言包打包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
+[中文插件打包ZIP下载>>](https://github.com/binaryoung/Flarum-zh_CN/archive/master.zip)  
   
 ###联系作者
 如有疑问或建议  
