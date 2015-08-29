@@ -16,12 +16,12 @@
   
   
 **使用说明：**
-1. 安装中文插件：https://github.com/binaryoung/Flarum-zh_CN
+* **安装中文插件：**https://github.com/binaryoung/Flarum-zh_CN
   
-2. 下载解压并覆盖语言包文件
+* **下载解压并覆盖中文语言包文件**
   
-[语言包打包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
-[中文插件打包ZIP下载>>](https://github.com/binaryoung/Flarum-zh_CN/archive/master.zip)  
+[中文语言包ZIP下载>>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
+[中文插件ZIP下载>>](https://github.com/binaryoung/Flarum-zh_CN/archive/master.zip)  
   
 ###联系作者
 如有疑问或建议  
