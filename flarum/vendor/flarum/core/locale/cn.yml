@@ -20,12 +20,12 @@ core:
   controls: 操作
   delete: 删除
   delete_forever: 永久删除
-  deleted: "[已销户]"
+  deleted: "[已注销]"
   disclose_online: 允许其他人查看我的在线状态
   discussion_renamed_post: "{username} 将标题 {old} 修改成 {new}."
   discussion_renamed_notification: "{username} 修改了标题"
-  discussion_replied: "最近由 {username} 回复于 {ago}"
-  discussion_started: "由 {username} 发布于 {ago}"
+  discussion_replied: "最近回复由 {username} 发表于于 {ago}"
+  discussion_started: "由 {username} 开始于 {ago} "
   discussion_title: 话题标题
   discussions: 话题
   dismiss: 解除
@@ -92,7 +92,7 @@ core:
   sort_latest: 最新回复
   sort_newest: 最新话题
   sort_oldest: 最旧话题
-  sort_relevance: Relevance
+  sort_relevance: 关联度
   sort_top: 热门话题
   start_a_discussion: 创建话题
   started_a_discussion: 发布了一个话题
@@ -108,3 +108,4 @@ core:
   welcome_user: "欢迎您, {username}!"
   write_a_post: 说点什么...
   write_a_reply: 回复什么...
+  
