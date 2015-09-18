@@ -67,7 +67,7 @@ core:
   period_later: "{period} 后"
   post_discussion: 发布话题
   post_edited: "{username} 编辑于 {ago}"
-  post_number: "Post #{number}"
+  post_number: "#{number}"
   post_reply: 发表回复
   posts: 回复
   powered_by_flarum: Powered by Flarum
