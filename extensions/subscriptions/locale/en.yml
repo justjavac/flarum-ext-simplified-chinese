@@ -1,9 +1,9 @@
 subscriptions:
   following: 关注
-  ignoring: 忽略
+  ignoring: 忽视
   follow: 关注
   unfollow: 取消关注
-  ignore: 忽略
+  ignore: 忽视
   notify_new_post: 我关注的话题被回复
   new_post_notification: "{username} 回复了你关注的内容"
   not_following: 常规

@@ -1,0 +1,107 @@
+core:
+  account: 用户账户
+  administration: 管理后台
+  alert: 通知
+  all_discussions: 所有话题
+  before_log_in_link: 已经注册过了吗？
+  before_sign_up_link: 还没有注册账户？
+  bio_placeholder: 写点什么介绍下自己吧
+  cannot_reply: 无法回复
+  cannot_reply_help: 你没有权限回复此话题
+  change_email: 更换邮箱
+  change_password: 更改密码
+  change_password_help: 点击按钮后将发送链接至邮箱以完成更改密码
+  close: 关闭
+  confirm_delete_discussion: 确定删除此话题？
+  confirm_discard_discussion: 话题还没有发布，确定要丢弃它们？
+  confirm_discard_edit: 更改还没有保存，确定放弃它们？
+  confirm_discard_reply: 回复还没有发表，确定要丢弃它们？
+  confirmation_email_sent: "我们已经发送了一封确认邮件至 {email}，如果你长时间仍未收到，请检查邮件垃圾箱。"
+  controls: 操作
+  delete: 删除
+  delete_forever: 永久删除
+  deleted: "[已销户]"
+  disclose_online: 允许其他人查看我的在线状态
+  discussion_renamed_post: "{username} 将原标题 {old} 修改成 {new}"
+  discussion_renamed_notification: "{username} 修改了标题"
+  discussion_replied: "{ago} 由 {username} 回复"
+  discussion_started: "{ago} 由 {username} 创建"
+  discussion_title: 话题标题
+  discussions: 话题
+  dismiss: Dismiss
+  edit: 编辑
+  editing_post: "#{number} {discussion}"
+  email: 邮箱
+  email_confirmation_required: "你需要进行邮件确认后才能登入，我们发送了一封邮件至 {email}，如果你长时间仍未收到，请检查邮件垃圾箱。"
+  exit_full_screen: 退出全屏
+  forgot_password: 忘记密码
+  forgot_password_help: 输入账户的邮箱，将发送一个链接为你重置密码。
+  forgot_password_link: 忘记了密码？
+  full_screen: 全屏
+  go_to: "转到 {location}"
+  group_admin: Admin
+  group_admins: Admins
+  group_guest: Guest
+  group_guests: Guests
+  group_member: Member
+  group_members: Members
+  group_mod: Mod
+  group_mods: Mods
+  invalid_login: 你的登录信息不正确！
+  joined: "加入于 {ago}"
+  load_more: 载入更多
+  log_in: 登入
+  log_in_to_reply: 登入后回复
+  log_out: 登出
+  mark_all_as_read: 标记所有为已读
+  mark_as_read: 标记为已读
+  minimize: 最小化
+  no_notifications: 没有新通知
+  notifications: 消息通知
+  notify_discussion_renamed: 我的话题被修改
+  now: 最后更新
+  online: 在线
+  original_post: 最先发布
+  password: 密码
+  password_reset_email_sent: 我们已经将重置密码的链接发送至该邮箱，如果长时间仍未收到，请检查邮件垃圾箱。
+  period_later: "{period} 后"
+  post_discussion: 发布话题
+  post_edited: "{username} 编辑于 {ago}"
+  post_number: "Post #{number}"
+  post_reply: 发表回复
+  posts: 回复
+  powered_by_flarum: Powered by Flarum
+  privacy: 隐私相关
+  profile: 我的资料
+  prompt_rename_discussion: 输入新的标题：
+  recover_password: 重置密码
+  refresh: 刷新
+  remove: 移除
+  rename: 更改标题
+  reply: 回复
+  reply_posted: Your reply was posted.
+  restore: 恢复
+  save_changes: 保存更改
+  search_all_discussions: '所有话题中搜索 "{query}"'
+  search_forum: 搜索其实很简单
+  send_password_reset_email: 发送链接至邮箱
+  settings: 个人设置
+  sign_up: 注册
+  sort_latest: 最新回复
+  sort_newest: 最新话题
+  sort_oldest: 最旧话题
+  sort_relevance: 最佳匹配
+  sort_top: 热门话题
+  start_a_discussion: 新的话题
+  unread_posts: "{count} 未读"
+  upload: 上传
+  username: 用户名
+  username_or_email: 用户名 或 邮箱
+  users: Users
+  view: View
+  viewing_posts:
+    one: "{index} / {count}"
+    other: "{index} / {count}"
+  welcome_user: "欢迎你，{username}"
+  write_a_post: 写点什么...
+  write_a_reply: 说点什么...
