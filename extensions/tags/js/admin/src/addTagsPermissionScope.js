@@ -47,7 +47,7 @@ export default function() {
       items.add('tag', Dropdown.component({
         className: 'Dropdown--restrictByTag',
         buttonClassName: 'Button Button--text',
-        label: '话题分类权限',
+        label: '话题分类',
         icon: 'plus',
         caretIcon: null,
         children: tags.map(tag => Button.component({
