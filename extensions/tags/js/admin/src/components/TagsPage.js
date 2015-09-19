@@ -41,7 +41,7 @@ export default class TagsPage extends Component {
             {Button.component({
               className: 'Button Button--primary',
               icon: 'plus',
-              children: '创建话题',
+              children: '创建分类',
               onclick: () => app.modal.show(new EditTagModal())
             })}
             {Button.component({
