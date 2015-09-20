@@ -151,7 +151,7 @@ export default class PermissionGrid extends Component {
           key: 'allow_post_editing',
           options: [
             {value: '-1', label: '无限期'},
-            {value: '10', label: '发布 10 分钟内'},
+            {value: '10', label: '发表 10 分钟内'},
             {value: 'reply', label: '直到下一条回复'}
           ]
         });

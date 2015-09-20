@@ -79,7 +79,7 @@ export default class EditTagModal extends Modal {
             })}
             {this.tag.exists ? (
               <button type="button" className="Button EditTagModal-delete" onclick={this.delete.bind(this)}>
-                Delete Tag
+                删除分类
               </button>
             ) : ''}
           </div>
