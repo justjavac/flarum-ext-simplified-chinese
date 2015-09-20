@@ -24,7 +24,7 @@ export default class SuspendUserModal extends Modal {
   }
 
   title() {
-    return 'Suspend ' + this.props.user.username();
+    return '冻结用户 ' + this.props.user.username();
   }
 
   content() {
@@ -51,14 +51,14 @@ export default class SuspendUserModal extends Modal {
                   this.$('.SuspendUserModal-days-input input').select();
                   m.redraw.strategy('none');
                 }}/>
-                Suspended for a limited time...
+                自定义时间
                 {this.status() === 'limited' ? (
                   <div className="SuspendUserModal-days-input">
                     <input type="number"
                       value={this.daysRemaining()}
                       oninput={m.withAttr('value', this.daysRemaining)}
                       className="FormControl"/>
-                    {' days'}
+                    {' 天'}
                   </div>
                 ) : ''}
               </label>
@@ -67,7 +67,7 @@ export default class SuspendUserModal extends Modal {
 
           <div className="Form-group">
             {Button.component({
-              children: 'Save Changes',
+              children: '保存更改',
               className: 'Button Button--primary',
               loading: this.loading
             })}
