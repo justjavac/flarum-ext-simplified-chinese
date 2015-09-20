@@ -31,7 +31,7 @@ export default class EditTagModal extends Modal {
         name: this.name,
         color: this.color
       })
-      : 'Create Tag';
+      : '创建分类';
   }
 
   content() {

@@ -22,7 +22,7 @@ export default class TagSettingsModal extends Modal {
   }
 
   title() {
-    return 'Tag Settings';
+    return '设置';
   }
 
   content() {
