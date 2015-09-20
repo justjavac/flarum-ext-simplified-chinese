@@ -46,7 +46,7 @@ export default class TagsPage extends Component {
             })}
             {Button.component({
               className: 'Button',
-              children: '设置',
+              children: '设定范围',
               onclick: () => app.modal.show(new TagSettingsModal())
             })}
           </div>
