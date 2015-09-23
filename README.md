@@ -29,4 +29,7 @@
 
  
 ###下载链接
-[中文语言包ZIP下载 >>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)  
+[最新版本下载 >>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)
+
+
+[历史版本选择 >>](https://github.com/jsthon/Flarum-zh-CN/releases)
