@@ -20,7 +20,7 @@ export default class AppearancePage extends Component {
         <div className="container">
           <form onsubmit={this.onsubmit.bind(this)}>
             <fieldset className="AppearancePage-colors">
-              <legend>Colors</legend>
+              <legend>外观色彩</legend>
               <div className="helpText">
                 选择两种颜色作为站点主题。第一种将用作突出显示颜色，第二种将用于背景元素的样式。
               </div>

@@ -30,7 +30,7 @@ core:
   discussions: 话题
   dismiss: Dismiss
   edit: 编辑
-  editing_post: "#{number} {discussion}"
+  editing_post: "编辑 #{number} {discussion}"
   email: 邮箱
   email_confirmation_required: "你需要进行邮件确认后才能登入，我们发送了一封邮件至 {email}，如果你长时间仍未收到，请检查邮件垃圾箱。"
   exit_full_screen: 退出全屏

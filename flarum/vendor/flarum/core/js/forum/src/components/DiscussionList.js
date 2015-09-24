@@ -55,7 +55,7 @@ export default class DiscussionList extends Component {
     }
 
     if (this.discussions.length === 0 && !this.loading) {
-      const text = '看起来这里没有话题，为什么不发布一个新的呢？';
+      const text = '似乎没有话题，为什么不发布一个新的呢？';
       return (
         <div className="DiscussionList">
           {Placeholder.component({text})}
