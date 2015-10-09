@@ -8,7 +8,6 @@
 整体语言风格较细腻自然  
 符合多数中国人思维习惯
   
-* **DEMO:** [万花筒(WOHONT.COM)](http://wohont.com/)
 * **GitHub:** <https://github.com/jsthon/Flarum-zh-CN/>
   
   
