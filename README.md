@@ -23,7 +23,7 @@
 [Issuse on GitHub>>](https://github.com/jsthon/Flarum-zh-CN/issues)  
   
 或联系作者本人  
-* **博客/Blog:** <http://jsthon.com>
+* **主页/Home:** <http://jsthon.com>
 * **邮箱/Mail:** jsthonwong@gmail.com  
 
  
