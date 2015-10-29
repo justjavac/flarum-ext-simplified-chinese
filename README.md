@@ -2,7 +2,7 @@
 
 ###安装说明
 
-此语言包由 **@jsthon** 制作发行  
+此语言包由 **[@ jsthon](https://github.com/jsthon)** 制作发行  
   
 基于 [Flarum](http://flarum.org) 原生语言包翻译  
 整体语言风格较细腻自然  
@@ -24,11 +24,9 @@
   
 或联系作者本人  
 * **主页/Home:** <http://jsthon.com>
-* **邮箱/Mail:** jsthonwong@gmail.com  
+* **邮箱/Mail:** jsthon@outlook.com  
 
  
 ###下载链接
-[适配最新版本 >>](https://github.com/jsthon/Flarum-zh-CN/archive/master.zip)
 
-
-[选择适配版本 >>](https://github.com/jsthon/Flarum-zh-CN/releases)
+[选择下载版本 >>](https://github.com/jsthon/Flarum-zh-CN/releases)
