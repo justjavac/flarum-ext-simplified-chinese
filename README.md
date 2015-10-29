@@ -2,7 +2,7 @@
 
 ###安装说明
 
-此语言包由 **Jsthon Wong** 制作发行  
+此语言包由 **@jsthon** 制作发行  
   
 基于 [Flarum](http://flarum.org) 原生语言包翻译  
 整体语言风格较细腻自然  
