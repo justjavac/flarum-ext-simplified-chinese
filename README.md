@@ -3,9 +3,9 @@
 仅适配于 Flarum Beta 2 版本
  
 需要适配新版本请移步
- [jsthon/flarum-chinese](https://github.com/jsthon/flarum-chinese)
+ [jsthon/flarum-simplified-chinese](https://github.com/jsthon/flarum-simplified-chinese)
  
-https://github.com/jsthon/flarum-chinese
+https://github.com/jsthon/flarum-simplified-chinese
 
 ###安装说明
 
