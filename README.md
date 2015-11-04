@@ -1,6 +1,6 @@
 ## Flarum 简体中文 / Simplified Chinese 语言包
 
-## 仅适配于 Flarum Beta2 版本
+仅适配于 Flarum Beta 2 版本
 
 ###安装说明
 
