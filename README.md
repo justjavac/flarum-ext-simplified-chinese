@@ -1,5 +1,7 @@
 ## Flarum 简体中文 / Simplified Chinese 语言包
 
+## 仅适配于 Flarum Beta2 版本
+
 ###安装说明
 
 此语言包由 **[@ jsthon](https://github.com/jsthon)** 制作发行  
