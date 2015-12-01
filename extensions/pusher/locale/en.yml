@@ -1,4 +1,0 @@
-pusher:
-  show_updated_discussions:
-    one: "显示 {count} 个话题更新"
-    other: "显示 {count} 个话题更新"
