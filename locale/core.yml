@@ -172,6 +172,12 @@ core:
       submit_button: 发表回复
       view_button: 查看
 
+    # These translations are used in the Confirm Password modal dialog.
+    confirm_password:
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.confirm_password
+      title: => core.ref.confirm_password
+
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: 无法回复
@@ -423,6 +429,7 @@ core:
     all_discussions: 所有话题
     change_email: 更换邮箱
     change_password: 更改密码
+    confirm_password: 确认密码
     confirmation_email_sent: "我们已经发送了一封邮件至 {email}，请打开它并完成账号激活。"
     delete: 删除
     delete_forever: 永久删除
