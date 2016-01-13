@@ -229,6 +229,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: 无法发布话题
+      mark_all_as_read_confirmation: "确认全部标记为已读？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 刷新
       start_discussion_button: => core.ref.start_a_discussion
