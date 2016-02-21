@@ -29,3 +29,7 @@ flarum-mentions:
     settings:
       notify_post_mentioned_label: 有人回复了我
       notify_user_mentioned_label: 有人提到了我
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      mentions_link: 提到用户

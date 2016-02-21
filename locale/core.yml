@@ -7,6 +7,12 @@ core:
   # Translations in this namespace are used by the admin interface.
   admin:
 
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "如果你是开发者，你可以阅读 <a>开发文档</a> ，并开发新的插件。"
+      install_text: "同时，你可以在 <a>Flarum Community site</a> 寻找插件，或使用 Composer 手动安装。"
+      temporary_text: "不远的将来，这里能更快捷地添加拓展插件。正如我们所说，我们正在建造一个生态系统。"
+
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: 彩色头部
