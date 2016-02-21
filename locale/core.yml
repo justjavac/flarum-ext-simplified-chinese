@@ -185,7 +185,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "确定删除这个话题？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: 登入后回复
+      log_in_to_reply_button: 登入以回复
       rename_button: 更改标题
       rename_text: "输入新的标题："
       reply_button: => core.ref.reply
@@ -275,8 +275,8 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: 最后更新
-      original_post_link: 最先发布
+      now_link: 最新回复
+      original_post_link: 最早内容
       unread_text: "{count} 未读"
       viewing_text: "{index} / {count} 条|{index} / {count} 条"
 
