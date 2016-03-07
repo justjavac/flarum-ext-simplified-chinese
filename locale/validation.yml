@@ -67,3 +67,7 @@ validation:
     content: 内容
     name_singular: 单数名称
     name_plural: 复数名称
+
+  custom:
+    username:
+      regex: "用户名只能含有字母、数字、连字符。"
