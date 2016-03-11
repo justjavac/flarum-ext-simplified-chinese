@@ -12,7 +12,7 @@ flarum-pusher:
       app_id_label: App ID
       app_key_label: App Key
       app_secret_label: App Secret
-      title: Pusher Settings
+      title: Pusher 设置
 
   # Translations in this namespace are used by the admin interface.
   forum:
