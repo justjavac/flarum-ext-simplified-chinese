@@ -1,5 +1,5 @@
 validation:
-  accepted: ":attribute 必须选择接受"
+  accepted: ":attribute 未被选择接受"
   active_url: "此 :attribute 不是有效的URL地址"
   after: ":attribute 只能是 :date 后的日期"
   alpha: ":attribute 只能是字母"
