@@ -139,7 +139,9 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_label: 确认密码
       dismiss_button: => core.ref.okay
+      incorrect_password_message: 这个密码有误!
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -177,12 +179,6 @@ core:
       posted_message: 你的回复已发表
       submit_button: 发表回复
       view_button: 查看
-
-    # These translations are used in the Confirm Password modal dialog.
-    confirm_password:
-      password_placeholder: => core.ref.password
-      submit_button: => core.ref.confirm_password
-      title: => core.ref.confirm_password
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -436,7 +432,6 @@ core:
     all_discussions: 所有话题
     change_email: 更换邮箱
     change_password: 更改密码
-    confirm_password: 确认密码
     confirmation_email_sent: "我们已经发送了一封邮件至 {email}，请打开它并完成账号激活。"
     delete: 删除
     delete_forever: 永久删除
