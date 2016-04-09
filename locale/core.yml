@@ -195,7 +195,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "空空如也，何不创作一个？"
+      empty_text: 空空如也，何不创作一个？
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
@@ -213,6 +213,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: 我们已经将重置密码的链接发送至该邮箱，如果长时间仍未收到，请检查邮件垃圾箱。
+      not_found_message: 此邮箱的注册用户不存在
       submit_button: 重置密码
       text: 输入账户的邮箱，将发送一个链接为你重置密码。
       title: 忘记密码
@@ -246,7 +247,6 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "需要你完成邮件验证后才能登入，我们发送了一封邮件至 {email}，请确认查收。"
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 这个登入信息有误！
       password_placeholder: => core.ref.password
@@ -310,7 +310,6 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
       log_in_text: "已经注册过了？ <a>登入</a>"
@@ -339,6 +338,12 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "确定删除这个用户？该用户所有发言都会被删除。"
       edit_button: => core.ref.edit
+
+    # These translations are used in unverified user alert box.
+    user_confirmation:
+      alert_message: core.ref.confirmation_email_sent
+      resend_button: 重新发送确认邮件
+      sent_message: 发送
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
