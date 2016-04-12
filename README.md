@@ -1,10 +1,10 @@
 ## Flarum 简体中文 / Simplified Chinese 语言包
 
-GitHub: https://github.com/jsthon/flarum-simplified-chinese
+GitHub: https://github.com/Flarum-Chinese/flarum-simplified-chinese
 
 ###语言包简介
 
-本语言包由 **[jsthon](https://github.com/jsthon)** 制作并发行
+本语言包由 **[Flarum 中国开发者社区](http://flarum.org.cn)** 制作并发行
 
 基于 [flarum/english](https://github.com/flarum/english) 翻译
 
@@ -16,16 +16,16 @@ GitHub: https://github.com/jsthon/flarum-simplified-chinese
 
 ###下载链接
 
-[选择发行版本 >>](https://github.com/jsthon/flarum-simplified-chinese/releases)
+[选择发行版本 >>](https://github.com/Flarum-Chinese/flarum-simplified-chinese/releases)
 
 
 ###联系作者
 如有疑问或建议  
 请直接提出问题  
 
-[Issuse on GitHub>>](https://github.com/jsthon/flarum-simplified-chinese/issues)  
+[Issuse on GitHub>>](https://github.com/Flarum-Chinese/flarum-simplified-chinese/issues)  
 
-或联系作者
-  
-* **主页：** http://jsthon.com
-* **邮箱：** jsthon@outlook.com
+或进入社区发帖
+
+
+[Flarum 中国开发者社区](http://discuss.flarum.org.cn)
