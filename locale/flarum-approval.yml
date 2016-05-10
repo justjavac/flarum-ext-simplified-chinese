@@ -10,7 +10,7 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: 审核内容
-      reply_without_approval_label: 回复需审核
+      reply_without_approval_label: 回复无需审核
 
   # Translations in this namespace are used by the forum user interface.
   forum:
