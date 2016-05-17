@@ -14,6 +14,11 @@ GitHub: https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese
 符合多数中国人思维习惯
 
 
+###安装方式
+
+    composer require jsthon/flarum-ext-simplified-chinese
+
+
 ###下载链接
 
 [选择发行版本 >>](https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese/releases)
