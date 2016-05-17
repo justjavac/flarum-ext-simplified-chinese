@@ -23,11 +23,11 @@ core:
       dark_mode_label: 夜间模式
       edit_css_button: 编辑样式代码
       enter_hex_message: 请输入一个十六进制颜色代码。
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
 
     # These translations are used in the Basics page.
     basics:
-      all_discussions_label: => core.ref.all_discussions
+      all_discussions_label: 全部话题
       default_language_heading: 默认语言
       forum_description_heading: 站点描述
       forum_description_text: 通过几个短语或句子描述你的站点，它将作为 Meta 标记，并且被搜索引擎抓取。
@@ -35,7 +35,7 @@ core:
       home_page_heading: 站点首页
       home_page_text: "选择一个页面作为站点首页。如果输入了自定义值，请使用基于站点根目录的相对路径。"
       saved_message: 你的更改已保存
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
       welcome_banner_heading: 欢迎横幅
       welcome_banner_text: 输入一段文字作为横幅，它将显示在站点的“所有话题”页面中。
 
@@ -53,7 +53,7 @@ core:
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
       customize_text: "添加 LESS/CSS 代码以生成自定义样式作为 <a>默认外观</a> 。"
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
       title: 自定义样式
 
     # These translations are used in the Edit Group modal dialog.
@@ -66,7 +66,7 @@ core:
       name_label: 名称
       plural_placeholder: 用户组 (例如 Mods)
       singular_placeholder: 单个用户 (例如 Mod)
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
       title: 新用户组
 
     # These translations are used in the Extensions page.
@@ -74,12 +74,12 @@ core:
       add_button: 添加插件
       disable_button: 停用
       enable_button: 启用
-      settings_button: => core.ref.settings
+      settings_button: 设置
       uninstall_button: 卸载
 
     # These translations are used in the session dropdown menu.
     header:
-      log_out_button: => core.ref.log_out
+      log_out_button: 登出
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
@@ -125,31 +125,31 @@ core:
       allow_ten_minutes_button: 发布 10 分钟内
       allow_until_reply_button: 直到新回复
       everyone_button: 所有人
-      members_button: => core.group.members
+      members_button: core.group.members
       signup_closed_button: 关闭
       signup_open_button: 开放
 
     # These translations are used in the Settings modal dialog.
     settings:
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
+      confirmation_message: 确认邮件已经发送至您的邮箱
       confirm_password_label: 确认密码
-      dismiss_button: => core.ref.okay
+      dismiss_button: OK
       incorrect_password_message: 这个密码有误!
-      submit_button: => core.ref.save_changes
-      title: => core.ref.change_email
+      submit_button: 保存
+      title: 修改邮箱
 
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: 发送链接至邮箱
       text: 将发送一个安全链接至你的邮箱以完成重置密码。
-      title: => core.ref.change_password
+      title: 修改密码
 
     # These translations are used by the composer controls.
     composer:
@@ -163,18 +163,18 @@ core:
       body_placeholder: 写点什么...
       discard_confirmation: "话题还没有发布，确定要丢弃？"
       submit_button: 发布话题
-      title: => core.ref.start_a_discussion
+      title: 发起一个话题
       title_placeholder: 话题标题
 
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "更改还没有保存，确定要放弃？"
       post_link: "编辑 #{number} {discussion}"
-      submit_button: => core.ref.save_changes
+      submit_button: 保存
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
-      body_placeholder: => core.ref.write_a_reply
+      body_placeholder: 回复
       discard_confirmation: "回复还没有发表，确定要丢弃？"
       posted_message: 你的回复已发表
       submit_button: 发表回复
@@ -184,34 +184,34 @@ core:
     discussion_controls:
       cannot_reply_button: 无法回复
       cannot_reply_text: 你没有权限回复此话题。
-      delete_button: => core.ref.delete
+      delete_button: 删除
       delete_confirmation: "确定删除这个话题？"
-      delete_forever_button: => core.ref.delete_forever
+      delete_forever_button: 删除收藏
       log_in_to_reply_button: 登入以回复
       rename_button: 更改标题
       rename_text: "输入新的标题："
-      reply_button: => core.ref.reply
-      restore_button: => core.ref.restore
+      reply_button: 回复
+      restore_button: 还原
 
     # These translations are used in the discussion list.
     discussion_list:
       empty_text: 空空如也，何不创作一个？
-      load_more_button: => core.ref.load_more
+      load_more_button: 更多
       mark_as_read_tooltip: 标记为已读
       replied_text: "{username} 回复于 {ago}"
       started_text: "{username} 发布于 {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      email_label: => core.ref.email
-      password_label: => core.ref.password
-      submit_button: => core.ref.save_changes
-      username_label: => core.ref.username
+      email_label: 邮箱
+      password_label: 密码
+      submit_button: 保存
+      username_label: 用户名
 
     # These translations are used in the Forgot Password modal dialog.
     forgot_password:
-      dismiss_button: => core.ref.okay
-      email_placeholder: => core.ref.email
+      dismiss_button: OK
+      email_placeholder: 邮箱
       email_sent_message: 我们已经将重置密码的链接发送至该邮箱，如果长时间仍未收到，请检查邮件垃圾箱。
       not_found_message: 此邮箱的注册用户不存在
       submit_button: 重置密码
@@ -221,21 +221,21 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: 管理后台
-      log_in_link: => core.ref.log_in
-      log_out_button: => core.ref.log_out
+      log_in_link: 登录
+      log_out_button: 登出
       profile_button: 我的资料
       search_placeholder: 搜索其实很简单
-      settings_button: => core.ref.settings
-      sign_up_link: => core.ref.sign_up
+      settings_button: 设置
+      sign_up_link: 注册
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      all_discussions_link: => core.ref.all_discussions
+      all_discussions_link: 全部话题
       cannot_start_discussion_button: 无法发布话题
       mark_all_as_read_confirmation: "确认全部标记为已读？"
-      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_all_as_read_tooltip: 全部标记为已读
       refresh_tooltip: 刷新
-      start_discussion_button: => core.ref.start_a_discussion
+      start_discussion_button: 发布话题
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -249,19 +249,19 @@ core:
     log_in:
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 这个登入信息有误！
-      password_placeholder: => core.ref.password
+      password_placeholder: 密码
       sign_up_text: "还没有注册？ <a>注册</a>"
-      submit_button: => core.ref.log_in
-      title: => core.ref.log_in
+      submit_button: 登录
+      title: 登录
       username_or_email_placeholder: 用户名 或 邮箱
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} 更改了标题"
       empty_text: 没有新通知
-      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      title: => core.ref.notifications
-      tooltip: => core.ref.notifications
+      mark_all_as_read_tooltip: 全部标记为已读
+      title: 通知
+      tooltip: 通知
 
     # These translations are used by tooltips displayed for individual posts.
     post:
@@ -270,10 +270,10 @@ core:
 
     # These translations are used by the post control buttons.
     post_controls:
-      delete_button: => core.ref.delete
-      delete_forever_button: => core.ref.delete_forever
-      edit_button: => core.ref.edit
-      restore_button: => core.ref.restore
+      delete_button: 删除
+      delete_forever_button: 删除收藏
+      edit_button: 编辑
+      restore_button: 还原
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
@@ -285,38 +285,38 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_text: "{username} 将原标题 {old} 修改成 {new}"
-      load_more_button: => core.ref.load_more
-      reply_placeholder: => core.ref.write_a_reply
+      load_more_button: 更多
+      reply_placeholder: 回复
       time_lapsed_text: "{period} 后"
 
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: '所有话题中搜索 "{query}"'
-      discussions_heading: => core.ref.discussions
+      discussions_heading: 话题
       users_heading: 用户
 
     # These translations are used in the Settings page.
     settings:
       account_heading: 账户设置
-      change_email_button: => core.ref.change_email
-      change_password_button: => core.ref.change_password
-      notifications_heading: => core.ref.notifications
-      notify_by_email_heading: => core.ref.email
+      change_email_button: 修改邮箱
+      change_password_button: 修改密码
+      notifications_heading: 通知
+      notify_by_email_heading: 邮箱
       notify_by_web_heading: 通知
       notify_discussion_renamed_label: 我的话题被修改
       privacy_disclose_online_label: 允许其他人看到我的在线状态
       privacy_heading: 隐私相关
-      title: => core.ref.settings
+      title: 设置
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
-      dismiss_button: => core.ref.okay
+      email_placeholder: 邮箱
+      dismiss_button: OK
       log_in_text: "已经注册过了？ <a>登入</a>"
-      password_placeholder: => core.ref.password
-      submit_button: => core.ref.sign_up
-      title: => core.ref.sign_up
-      username_placeholder: => core.ref.username
+      password_placeholder: 密码
+      submit_button: 注册
+      title: 注册
+      username_placeholder: 用户名
       welcome_text: "欢迎你，{username}"
 
     # These translations are used in the user profile page and profile popup.
@@ -324,24 +324,24 @@ core:
       avatar_remove_button: 移除
       avatar_upload_button: 上传
       bio_placeholder: 写点什么介绍下自己吧
-      discussions_link: => core.ref.discussions
+      discussions_link: 话题
       in_discussion_text: "{discussion}"
       joined_date_text: "加入于 {ago}"
       online_text: 在线
-      posts_load_more_button: => core.ref.load_more
+      posts_load_more_button: 更多
       posts_link: 回复
-      settings_link: => core.ref.settings
+      settings_link: 设置
 
     # These translations are found on the user profile page (admin function).
     user_controls:
       button: 操作
-      delete_button: => core.ref.delete
+      delete_button: 删除
       delete_confirmation: "确定删除这个用户？该用户所有发言都会被删除。"
-      edit_button: => core.ref.edit
+      edit_button: 编辑
 
     # These translations are used in unverified user alert box.
     user_confirmation:
-      alert_message: core.ref.confirmation_email_sent
+      alert_message: 确认邮件已经发送至您的邮箱
       resend_button: 重新发送确认邮件
       sent_message: 发送
 
