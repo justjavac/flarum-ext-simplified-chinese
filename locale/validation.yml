@@ -19,9 +19,11 @@ validation:
   different: ":attribute 与 :other 不一致"
   digits: ":attribute 只能是 :digits 位数"
   digits_between: ":attribute 只能是 :min 至 :max 位数"
+  dimensions: "The :attribute has invalid image dimensions."
   distinct: ":attribute 是一个重复的值"
   email: ":attribute 必须是有效的"
   exists: "选择的 :attribute 无效"
+  file: "The :attribute must be a file."
   filled: "不可以缺少:attribute"
   image: ":attribute 只能是图像"
   in: "选择的 :attribute 无效"
@@ -70,6 +72,8 @@ validation:
     content: 内容
     name_singular: 单数名称
     name_plural: 复数名称
+    tag_count_primary: number of primary tags
+    tag_count_secondary: number of secondary tags
 
   custom:
     username:
