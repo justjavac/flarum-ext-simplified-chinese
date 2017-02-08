@@ -25,7 +25,7 @@ core:
       custom_styles_text: 添加 LESS/CSS 代码以生成自定义样式作为默认外观。
       dark_mode_label: 夜间模式
       edit_css_button: 编辑样式代码
-      edit_header_button: Edit Custom Header
+      edit_header_button: 编辑自定义 HTML 头
       enter_hex_message: 请输入一个十六进制颜色代码。
       favicon_heading: Favicon
       favicon_text: 上传论坛的缩略图标（显示在标签页上）。
@@ -81,7 +81,7 @@ core:
     edit_header:
       customize_text: "在页面顶端（Flarum 本身的头部上方）添加 HTML 代码。"
       submit_button: => core.ref.save_changes
-      title: 编辑自定义 HTML 头
+      title: 自定义 HTML 头
 
     # These translations are used in the email page of the admin interface.
     email:
