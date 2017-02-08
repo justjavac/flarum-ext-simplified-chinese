@@ -12,6 +12,7 @@ core:
       developer_text: "如果你是开发者，你可以阅读 <a>开发文档</a> ，并开发新的插件。"
       install_text: "同时，你可以在 <a>Flarum Community site</a> 寻找插件，或使用 Composer 手动安装。"
       temporary_text: "不远的将来，这里能更快捷地添加拓展插件。正如我们所说，我们正在建造一个生态系统。"
+      title: Add Extension
 
     # These translations are used in the Appearance page.
     appearance:
@@ -238,10 +239,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: Activate User
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: Groups
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: Set new password
       submit_button: => core.ref.save_changes
       title: Edit User
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -286,6 +293,7 @@ core:
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 这个登入信息有误！
       password_placeholder: => core.ref.password
+      remember_me_label: Remember me for two weeks
       sign_up_text: "还没有注册？ <a>注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -444,6 +452,7 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: 激活你的账号
       body: |
         嘿~
 
@@ -454,10 +463,10 @@ core:
         {url}
 
         如果你感到莫名其妙，请忽略这封邮件。
-      subject: 激活你的账号
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: 确认邮箱地址
       body: |
         Hey {username} !
 
@@ -468,10 +477,10 @@ core:
         {url}
 
         如果不是你，请立即检查账号安全并修改密码。
-      subject: 确认邮箱地址
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: 重置你的密码
       body: |
         Hey {username} !
 
@@ -482,7 +491,6 @@ core:
         {url}
 
         如果不是你，请忽略掉它，我们不会受理这个操作。
-      subject: 重置你的密码
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -515,8 +523,8 @@ core:
     save_changes: 保存更改                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 个人设置
     sign_up: 注册
-    start_a_discussion: 新的话题
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: 新的话题
     username: 用户名
     write_a_reply: 说点什么...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
