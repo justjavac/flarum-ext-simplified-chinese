@@ -15,7 +15,13 @@
         "source": "https://github.com/jsthon/flarum-ext-simplified-chinese"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.5"
+        "flarum/core": "^0.1.0-beta.5",
+        "flarum/flarum-ext-english": "^0.1.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flarum\\SimplifiedChinese\\": "src/"
+        }
     },
     "extra": {
         "flarum-extension": {
@@ -31,5 +37,6 @@
             "code": "zh",
             "title": "简体中文"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }

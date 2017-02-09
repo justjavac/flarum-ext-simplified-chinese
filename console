@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Flarum\SimplifiedChinese\Commands\DiffCommand;
+use Symfony\Component\Console\Application;
+
+$app = new Application();
+$app->add(new DiffCommand());
+$app->run();
