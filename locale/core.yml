@@ -224,8 +224,7 @@ core:
       delete_confirmation: "确定删除这个话题？"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: 登入以回复
-      rename_button: 更改标题
-      rename_text: "输入新的标题："
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -334,6 +333,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 后"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: 输入新的标题
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -447,6 +451,10 @@ core:
       submit_button: 重置密码
       title: => core.ref.reset_your_password
 
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "用户名只能包含字母、数字和连字符。"
+
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
@@ -480,7 +488,7 @@ core:
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: 重置你的密码
+      subject: => core.ref.reset_your_password
       body: |
         Hey {username} !
 
@@ -517,6 +525,7 @@ core:
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
     password: 密码
+    rename: 更改标题
     reply: 回复                                # Referenced by flarum-mentions.yml
     reset_your_password: 重置密码
     restore: 恢复
@@ -529,9 +538,9 @@ core:
     write_a_reply: 说点什么...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
-   ##
-   # GROUP NAMES - These keys are translated at the back end.
-   ##
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
 
   # Translations in this namespace are used to translate default group names.
   group:
