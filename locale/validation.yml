@@ -78,3 +78,7 @@ validation:
     name_plural: 复数名称
     tag_count_primary: number of primary tags
     tag_count_secondary: number of secondary tags
+
+  custom:
+    username:
+      regex: "用户名只能包含字母、数字和连字符。"

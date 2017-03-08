@@ -225,6 +225,7 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: 登入以回复
       rename_button: => core.ref.rename
+      rename_text: "输入新的标题："
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
