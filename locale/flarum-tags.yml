@@ -87,11 +87,11 @@ flarum-tags:
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # This translation displayed in place of the name of a tag that's been deleted.
+    # This translation is displayed in place of the name of a tag that's been deleted.
     deleted_tag_text: 已删除
 
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
