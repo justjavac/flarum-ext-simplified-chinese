@@ -44,7 +44,7 @@ flarum-subscriptions:
       notify_email_tooltip: 有新回复时发送邮件
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED STRINGS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
