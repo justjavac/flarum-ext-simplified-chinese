@@ -11,7 +11,7 @@ flarum-approval:
     permissions:
       approve_posts_label: 审核内容
       reply_without_approval_label: 回复无需审核
-      start_discussions_without_approval_label: 发布话题无需审核
+      start_discussions_without_approval_label: Start discussions without approval
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: 等待审核
+    awaiting_approval: Awaiting approval
