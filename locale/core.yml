@@ -69,11 +69,25 @@ core:
       submit_button: => core.ref.save_changes
       title: 新用户组
 
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP 账户
+      addresses_heading: 地址
+      driver_label: 方法
+      encryption_label: 加密
+      from_label: 发送者
+      heading: => core.ref.email
+      host_label: 服务器地址
+      password_label: => core.ref.password
+      port_label: 端口
+      server_heading: SMTP 服务器
+      submit_button: => core.ref.save_changes
+      text: 配置你的 SMTP 服务器用于站点的邮件发送。
+      username_label: => core.ref.username
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: 添加插件
-      disable_button: 停用
-      enable_button: 启用
       settings_button: => core.ref.settings
       uninstall_button: 卸载
 
@@ -93,6 +107,8 @@ core:
       basics_text: "修改你的站点名称、语言和其他设置。"
       dashboard_button: 主要概览
       dashboard_text: 各项数据，一目了然。
+      email_button: => core.ref.email
+      email_text: "配置站点的邮件服务。"
       extensions_button: 插件拓展
       extensions_text: 添加新的插件拓展到你的站点。
       permissions_button: 用户权限
@@ -139,7 +155,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: => core.ref.confirm_password
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: 这个密码有误!
       submit_button: => core.ref.save_changes
@@ -206,6 +222,7 @@ core:
       email_label: => core.ref.email
       password_label: => core.ref.password
       submit_button: => core.ref.save_changes
+      title: 编辑用户
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -265,6 +282,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
+      edited_text: "编辑"
       edited_tooltip: "{username} 编辑于 {ago}"
       number_tooltip: "发表 #{number}"
 
@@ -324,6 +342,7 @@ core:
     user:
       avatar_remove_button: 移除
       avatar_upload_button: 上传
+      avatar_upload_tooltip: 上传新头像
       bio_placeholder: 写点什么介绍下自己吧
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}"
@@ -406,20 +425,21 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
+      subject: 激活你的账号
       body: |
         嘿~
 
-        {username} 想通过这个邮箱在 {forum} 注册账号。（真希望是你！）
+        {username} 想通过这个邮箱在 {forum} 注册账号。（但愿是你！）
 
         如果是你注册的，只需打开下面的链接即可完成账号激活。
 
         {url}
 
         如果你感到莫名其妙，请忽略这封邮件。
-      subject: 激活你的账号
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
+      subject: 确认邮箱地址
       body: |
         Hey {username} !
 
@@ -430,21 +450,20 @@ core:
         {url}
 
         如果不是你，请立即检查账号安全并修改密码。
-      subject: 确认邮箱地址
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
+      subject: => core.ref.reset_your_password
       body: |
         Hey {username} !
 
-        有人想要重置你在 {forum} 的登入密码。（真希望是你！）
+        有人想要重置你在 {forum} 的登入密码。（但愿是你！）
 
         如果确定是你的操作，只需打开下面的链接即可完成重置密码。
 
         {url}
 
         如果不是你，请忽略掉它，我们不会受理这个操作。
-      subject: => core.ref.reset_your_password
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
