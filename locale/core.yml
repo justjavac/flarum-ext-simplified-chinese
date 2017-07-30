@@ -12,6 +12,7 @@ core:
       developer_text: "如果你是开发者，你可以阅读 <a>开发文档</a> ，并开发新的插件。"
       install_text: "同时，你可以在 <a>Flarum Community site</a> 寻找插件，或使用 Composer 手动安装。"
       temporary_text: "不远的将来，这里能更快捷地添加拓展插件。正如我们所说，我们正在建造一个生态系统。"
+      title: 添加插件
 
     # These translations are used in the Appearance page.
     appearance:
@@ -42,6 +43,7 @@ core:
       home_page_heading: 站点首页
       home_page_text: "选择一个页面作为站点首页。如果输入了自定义值，请使用基于站点根目录的相对路径。"
       saved_message: 你的更改已保存
+      show_language_selector_label: 显示语言选择
       submit_button: => core.ref.save_changes
       welcome_banner_heading: 欢迎横幅
       welcome_banner_text: 输入一段文字作为横幅，它将显示在站点的“所有话题”页面中。
@@ -147,6 +149,7 @@ core:
       start_discussions_label: 发布话题
       view_discussions_label: 浏览话题
       view_post_ips_label: 查看发表 IP 地址
+      view_user_list_label: 查看用户列表
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -223,8 +226,7 @@ core:
       delete_confirmation: "确定删除这个话题？"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: 登入以回复
-      rename_button: 更改标题
-      rename_text: "输入新的标题："
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -238,10 +240,16 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
+      activate_button: 激活用户
+      email_heading: => core.ref.email
       email_label: => core.ref.email
+      groups_heading: 用户组
+      password_heading: => core.ref.password
       password_label: => core.ref.password
+      set_password_label: 设置新密码
       submit_button: => core.ref.save_changes
       title: 编辑用户
+      username_heading: => core.ref.username
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -284,8 +292,9 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "忘记了密码？"
-      invalid_login_message: 这个登入信息有误！
+      invalid_login_message: 登入信息有误
       password_placeholder: => core.ref.password
+      remember_me_label: 两周内免登入
       sign_up_text: "还没有注册？ <a>注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -326,6 +335,11 @@ core:
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 后"
+
+      # These translations are used by the rename discussion modal.
+      rename_discussion:
+        title: 修改标题
+        submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
@@ -439,6 +453,10 @@ core:
       submit_button: 重置密码
       title: => core.ref.reset_your_password
 
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "用户名只能含有字母、数字、连字符"
+
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
@@ -509,6 +527,7 @@ core:
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
     password: 密码
+    rename: 更改
     reply: 回复                                # Referenced by flarum-mentions.yml
     reset_your_password: 重置密码
     restore: 恢复

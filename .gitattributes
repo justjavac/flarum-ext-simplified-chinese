@@ -1,17 +1,28 @@
-# Auto detect text files and perform LF normalization
+# The gitattributes file is a simple text file that gives
+# attributes to pathnames.
+# http://git-scm.com/docs/gitattributes
+
+# Automatically normalize line endings for all text-based files.
+# http://git-scm.com/docs/gitattributes#_end_of_line_conversion
 * text=auto
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+# For the following file types, normalize line endings to LF on check
+# in and prevent conversion to CRLF when they are checked out (this
+# is required in order to prevent newline related issues like, for
+# example, after the build script is run).
+.*     text eol=lf
+*.js   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.php  text eol=lf
+*.svg  text eol=lf
+*.yml  text eol=lf
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Exclude the following files when exporting an archive.
+# http://git-scm.com/docs/gitattributes#_creating_an_archive
+.editorconfig  export-ignore
+.gitattributes export-ignore
+.gitignore     export-ignore
+README.md      export-ignore
+
+js/*/dist/*.js -diff

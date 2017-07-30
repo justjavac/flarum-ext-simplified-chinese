@@ -2,11 +2,13 @@ validation:
   accepted: ":attribute 未被选择接受"
   active_url: "此 :attribute 不是有效的URL地址"
   after: ":attribute 只能是 :date 后的日期"
+  after_or_equal: ":attribute 只能是 :date 后的日期"
   alpha: ":attribute 只能是字母"
   alpha_dash: ":attribute 只能有字母、数字或连字符"
   alpha_num: ":attribute 只能是字母或数字"
   array: ":attribute 只能是一个数字"
   before: ":attribute 只能是 :date 前的日期"
+  before_or_equal: ":attribute 只能是 :date 前的日期"
   between:
     numeric: ":attribute 只能在 :min 与 :max 之间"
     file: ":attribute 只能在 :minKB 至 :maxKB内"
@@ -24,12 +26,14 @@ validation:
   email: ":attribute 必须是有效的"
   exists: "选择的 :attribute 无效"
   file: ":attribute 必须是个有效文件"
-  filled: "不可以缺少:attribute"
+  filled: ":attribute 必须是个有效值"
   image: ":attribute 只能是图像"
   in: "选择的 :attribute 无效"
   in_array: ":attribute 在 :other 中不存在"
   integer: ":attribute 只能是一个整数"
-  ip: ":attribute 必须是有效的IP地址"
+  ip: ":attribute 必须是有效的 IP 地址"
+  ipv4: ":attribute 必须是有效的 IPv4 地址"
+  ipv6: ":attribute 必须是有效的 IPv6 地址"
   json: ":attribute 必须是有效的 JSON 字符串"
   max:
     numeric: ":attribute 不能超过 :max."
@@ -76,7 +80,3 @@ validation:
     name_plural: 复数名称
     tag_count_primary: 节点数
     tag_count_secondary: 标签数
-
-  custom:
-    username:
-      regex: "用户名只能含有字母、数字、连字符。"
