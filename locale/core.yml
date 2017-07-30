@@ -87,15 +87,15 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP 账户
-      addresses_heading: 地址
-      driver_label: 方法
+      addresses_heading: 邮件地址
+      driver_label: 发信方法
       encryption_label: 加密
-      from_label: 发送者
-      heading: => core.ref.email
-      host_label: 服务器地址
+      from_label: 发信地址
+      heading: 邮件配置
+      host_label: 邮件服务器地址
       password_label: => core.ref.password
       port_label: 端口
-      server_heading: SMTP 服务器
+      server_heading: SMTP 配置
       submit_button: => core.ref.save_changes
       text: 配置你的 SMTP 服务器用于站点的邮件发送。
       username_label: => core.ref.username
@@ -122,7 +122,7 @@ core:
       basics_text: "修改你的站点名称、语言和其他设置。"
       dashboard_button: 主要概览
       dashboard_text: 各项数据，一目了然。
-      email_button: => core.ref.email
+      email_button: 邮件配置
       email_text: "配置站点的邮件服务。"
       extensions_button: 插件拓展
       extensions_text: 添加新的插件拓展到你的站点。

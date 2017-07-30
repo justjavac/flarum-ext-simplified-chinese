@@ -20,13 +20,13 @@ flarum-tags:
       hide_label: 首页所有话题中隐藏
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: 内链
+      slug_label: URL
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
-      tags_button: => flarum-tags.ref.tags
+      tags_button: 节点标签
       tags_text: 管理站点的节点与标签列表。
 
     # These translations are used in the Permissions page of the admin interface.
