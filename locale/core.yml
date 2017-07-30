@@ -12,25 +12,24 @@ core:
       developer_text: "如果你是开发者，你可以阅读 <a>开发文档</a> ，并开发新的插件。"
       install_text: "同时，你可以在 <a>Flarum Community site</a> 寻找插件，或使用 Composer 手动安装。"
       temporary_text: "不远的将来，这里能更快捷地添加拓展插件。正如我们所说，我们正在建造一个生态系统。"
-      title: 添加拓展插件
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: 彩色导航
       colors_heading: 颜色
       colors_text: "选择两种颜色作为主题色。第一种将用于突出显示的颜色，第二种将作为背景等元素的色调。"
-      custom_header_heading: 自定义 HTML 头
-      custom_header_text: "在页面顶端（Flarum 本身的头部上方）添加 HTML 代码。"
+      custom_header_heading: Custom Header
+      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's owner header."
       custom_styles_heading: 自定义样式
       custom_styles_text: 添加 LESS/CSS 代码以生成自定义样式作为默认外观。
       dark_mode_label: 夜间模式
       edit_css_button: 编辑样式代码
-      edit_header_button: 编辑自定义 HTML 头
+      edit_header_button: Edit Custom Header
       enter_hex_message: 请输入一个十六进制颜色代码。
       favicon_heading: Favicon
-      favicon_text: 上传论坛的缩略图标（显示在标签页上）。
+      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
       logo_heading: Logo
-      logo_text: 上传在论坛标题位置显示的 Logo 图片
+      logo_text: Upload an image to be displayed in place of the forum title.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -79,9 +78,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "在页面顶端（Flarum 本身的头部上方）添加 HTML 代码。"
+      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
       submit_button: => core.ref.save_changes
-      title: 自定义 HTML 头
+      title: Edit Custom Header
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -147,7 +146,7 @@ core:
       sign_up_label: 注册账户
       start_discussions_label: 发布话题
       view_discussions_label: 浏览话题
-      view_post_ips_label: 查看话题的发布 IP
+      view_post_ips_label: View post IP addresses
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -166,8 +165,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: 移除
-      upload_button: 选择图片...
+      remove_button: Remove
+      upload_button: Choose an Image...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -239,16 +238,10 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: 激活用户
-      email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: 组
-      password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: 设置新密码
       submit_button: => core.ref.save_changes
-      title: 用户编辑
-      username_heading: => core.ref.username
+      title: Edit User
       username_label: => core.ref.username
 
     # These translations are used in the Forgot Password modal dialog.
@@ -293,7 +286,6 @@ core:
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 这个登入信息有误！
       password_placeholder: => core.ref.password
-      remember_me_label: 两周内自动登录
       sign_up_text: "还没有注册？ <a>注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
@@ -309,7 +301,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: 已编辑
+      edited_text: Edited
       edited_tooltip: "{username} 编辑于 {ago}"
       number_tooltip: "发表 #{number}"
 
@@ -369,7 +361,7 @@ core:
     user:
       avatar_remove_button: 移除
       avatar_upload_button: 上传
-      avatar_upload_tooltip: 上传新头像
+      avatar_upload_tooltip: Upload a new avatar
       bio_placeholder: 写点什么介绍下自己吧
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}"
@@ -388,7 +380,7 @@ core:
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
-      alert_message: => core.ref.confirmation_email_sent
+      alert_message: core.ref.confirmation_email_sent
       resend_button: 重新发送确认邮件
       sent_message: 发送
 
@@ -444,7 +436,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: 重置密码
+      submit_button: Reset Password
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
@@ -452,7 +444,6 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: 激活你的账号
       body: |
         嘿~
 
@@ -463,10 +454,10 @@ core:
         {url}
 
         如果你感到莫名其妙，请忽略这封邮件。
+      subject: 激活你的账号
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: 确认邮箱地址
       body: |
         Hey {username} !
 
@@ -477,10 +468,10 @@ core:
         {url}
 
         如果不是你，请立即检查账号安全并修改密码。
+      subject: 确认邮箱地址
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
-      subject: 重置你的密码
       body: |
         Hey {username} !
 
@@ -491,6 +482,7 @@ core:
         {url}
 
         如果不是你，请忽略掉它，我们不会受理这个操作。
+      subject: 重置你的密码
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -502,7 +494,7 @@ core:
     all_discussions: 所有话题
     change_email: 更换邮箱
     change_password: 更改密码
-    confirm_password: 确认密码
+    confirm_password: Confirm Password
     confirmation_email_sent: "我们已经发送了一封邮件至 {email}，请打开它并完成账号激活。"
     delete: 删除
     delete_forever: 永久删除
@@ -513,18 +505,18 @@ core:
     log_in: 登入
     log_out: 登出
     mark_all_as_read: 标记所有为已读
-    next_page: 下一页
+    next_page: Next Page
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
     password: 密码
     reply: 回复                                # Referenced by flarum-mentions.yml
-    reset_your_password: 重置密码
+    reset_your_password: Reset Your Password
     restore: 恢复
     save_changes: 保存更改                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 个人设置
     sign_up: 注册
-    some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: 新的话题
+    some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: 用户名
     write_a_reply: 说点什么...
     you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
