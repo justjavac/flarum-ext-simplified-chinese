@@ -22,7 +22,7 @@ flarum-approval:
 
     # These translations are displayed in the post header.
     post:
-      awaiting_approval_text: => flarum-approval.ref.awaiting_approval
+      awaiting_approval_text: 等待审核中
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: 等待审核中
+    awaiting_approval: 等待审核

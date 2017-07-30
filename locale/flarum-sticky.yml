@@ -20,7 +20,7 @@ flarum-sticky:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      sticky_button: => flarum-sticky.ref.sticky
+      sticky_button: 置顶话题
       unsticky_button: 取消置顶
 
     # These translations are displayed between posts in the post stream.
@@ -29,7 +29,7 @@ flarum-sticky:
       discussion_unstickied_text: "{username} 取消置顶话题"
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED STRINGS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.

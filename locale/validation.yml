@@ -81,4 +81,4 @@ validation:
 
   custom:
     username:
-      regex: "用户名只能包含字母、数字和连字符。"
+      regex: "用户名只能含有字母、数字、连字符。"
