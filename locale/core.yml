@@ -139,7 +139,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: 确认密码
+      confirm_password_label: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: 这个密码有误!
       submit_button: => core.ref.save_changes
@@ -284,7 +284,8 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} 将原标题 {old} 修改成 {new}"
+      discussion_renamed_old_text: "原标题：{old}"
+      discussion_renamed_text: "{username} 修改标题成 {new}"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 后"
@@ -374,13 +375,31 @@ core:
       three_text: "{first}, {second}, 还有 {third}"
       two_text: "{first} 和 {second}"
 
-  # Translations in this namespace are used in basic HTML interface.
-  basic:
-    javascript_disabled_message: 使用更先进的浏览器访问效果更佳。
-    load_error_message: 当前访问的是简约版，使用更先进的浏览器访问效果更佳。
-    loading_text: 正在载入
-    next_page_button: 下一页
-    previous_page_button: 上一页
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: 使用更先进的浏览器访问效果更佳。
+      load_error_message: 加载出错，请刷新页面或更换浏览请再试。
+      loading_text: 正在载入
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: 上一页
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: 重置密码
+      title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -425,7 +444,7 @@ core:
         {url}
 
         如果不是你，请忽略掉它，我们不会受理这个操作。
-      subject: 重置你的密码
+      subject: => core.ref.reset_your_password
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -437,6 +456,7 @@ core:
     all_discussions: 所有话题
     change_email: 更换邮箱
     change_password: 更改密码
+    confirm_password: 确认密码
     confirmation_email_sent: "我们已经发送了一封邮件至 {email}，请打开它并完成账号激活。"
     delete: 删除
     delete_forever: 永久删除
@@ -447,10 +467,12 @@ core:
     log_in: 登入
     log_out: 登出
     mark_all_as_read: 标记所有为已读
+    next_page: 下一页
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
     password: 密码
     reply: 回复                                # Referenced by flarum-mentions.yml
+    reset_your_password: 重置密码
     restore: 恢复
     save_changes: 保存更改                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: 个人设置
