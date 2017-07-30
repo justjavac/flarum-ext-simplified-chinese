@@ -18,11 +18,18 @@ core:
       colored_header_label: 彩色导航
       colors_heading: 颜色
       colors_text: "选择两种颜色作为主题色。第一种将用于突出显示的颜色，第二种将作为背景等元素的色调。"
+      custom_header_heading: 自定义头部
+      custom_header_text: "添加 HTML 代码作为页面头部，显示在站点标题上方。"
       custom_styles_heading: 自定义样式
       custom_styles_text: 添加 LESS/CSS 代码以生成自定义样式作为默认外观。
       dark_mode_label: 夜间模式
       edit_css_button: 编辑样式代码
+      edit_header_button: 编辑自定义头部
       enter_hex_message: 请输入一个十六进制颜色代码。
+      favicon_heading: Favicon
+      favicon_text: 上传 Favicon 图片作为站点徽标展示。
+      logo_heading: Logo
+      logo_text: 上传 Logo 并展示在导航的站点标题处。
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -68,6 +75,12 @@ core:
       singular_placeholder: 单个用户 (例如 Mod)
       submit_button: => core.ref.save_changes
       title: 新用户组
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "添加 HTML 代码作为页面头部，显示在站点标题上方。"
+      submit_button: => core.ref.save_changes
+      title: 编辑自定义头部
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -133,6 +146,7 @@ core:
       sign_up_label: 注册账户
       start_discussions_label: 发布话题
       view_discussions_label: 浏览话题
+      view_post_ips_label: 查看发表 IP 地址
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -148,6 +162,11 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: 移除
+      upload_button: 选择图片
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -282,7 +301,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: "编辑"
+      edited_text: 编辑
       edited_tooltip: "{username} 编辑于 {ago}"
       number_tooltip: "发表 #{number}"
 
