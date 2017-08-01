@@ -528,7 +528,7 @@ core:
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
     password: 密码
-    rename: 更改
+    rename: 更改标题
     reply: 回复                                # Referenced by flarum-mentions.yml
     reset_your_password: 重置密码
     restore: 恢复
