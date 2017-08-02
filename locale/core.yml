@@ -295,7 +295,7 @@ core:
       forgot_password_link: "忘记了密码？"
       invalid_login_message: 登入信息有误
       password_placeholder: => core.ref.password
-      remember_me_label: 两周内免登入
+      remember_me_label: 自动登入
       sign_up_text: "还没有注册？ <a>注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
