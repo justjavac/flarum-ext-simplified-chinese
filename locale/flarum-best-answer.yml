@@ -1,0 +1,12 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+    forum:
+        this_best_answer: "采纳"
+        remove_best_answer: "取消采纳"
+        header_best_answer: "话题作者采纳最佳"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: 已采纳
+    ref:
+      best_answer: '采纳最佳'

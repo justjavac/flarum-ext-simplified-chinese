@@ -1,0 +1,73 @@
+flagrow-upload:
+    forum:
+        buttons:
+            attach: 文件
+        states:
+            loading: 请稍候
+            success: 成功
+            error: 失败
+    admin:
+        permissions:
+            upload_label: 上传文件
+            download_label: 下载文件
+        upload_methods:
+            local: Local
+            aws-s3: Amazon S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: 通用设置
+                max_file_size: 最大文件大小（单位：KB）
+                mime_types: 配置文件类型及上传方式
+            resize:
+                title: 图片缩放
+                toggle: 图片缩放
+                max_width: 最大图片宽度
+                max_height: 最大图片高度
+            watermark:
+                title: 图片水印
+                toggle: 图片水印
+                position: 水印位置
+                file: 上传水印图片
+            local:
+                title: 本地储存设置
+                cdn_url: CDN 链接（文件网址前缀）
+            imgur:
+                title: Imgur 图片设置
+                client_id: Imgur 客户端 ID
+            aws-s3:
+                title: AWS S3 储存设置
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: Region
+            ovh-svfs:
+                title: OVH SVFS 储存设置
+                container: Container
+                tenantid: Tenant ID
+                username: Username
+                password: Password
+                region: Region
+            disable-hotlink-protection:
+                title: 停用防盗链
+                toggle: 停用
+            disable-download-logging:
+                title: 停用下载日志记录
+                toggle: 停用
+
+        buttons:
+            save: 保存设置
+        help_texts:
+            description: >
+                文件上传服务与设定
+            mime_types: >
+                配置允许的上传文件类型及方式，由正则表达式处理。
+            resize: >
+                配置文件缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，保持横纵比不变。
+            watermark: >
+                配置上传图片水印，将会添加至非 GIF 图片中。
+            disable-hotlink-protection: >
+                防盗链将保护你的文件不会被其他站点调用下载，需要 CSRF TOKEN 和 POST ID。
+            disable-download-logging: >
+                停用下载日志记录功能。若保持开启，将可以查看下载记录及其他指标。
