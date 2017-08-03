@@ -1,7 +1,7 @@
 flagrow-upload:
     forum:
         buttons:
-            attach: 文件
+            attach: 上传
         states:
             loading: 请稍候
             success: 成功
