@@ -337,10 +337,10 @@ core:
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 后"
 
-      # These translations are used by the rename discussion modal.
-      rename_discussion:
-        title: 修改标题
-        submit_button: => core.ref.rename
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: 修改标题
+      submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
