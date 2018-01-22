@@ -25,6 +25,9 @@ GitHub: https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese
 
 [选择发行版本 >>](https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese/releases)
 
+### 安装教程
+
+[《轻论坛：Flarum 程序安装指南》](https://jsthon.com/flarum-installation-guide/)
 
 ### 联系作者
 如有疑问或建议  
@@ -33,6 +36,5 @@ GitHub: https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese
 [Issuse on GitHub>>](https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese/issues)  
 
 或进入社区发帖
-
 
 [Flarum 中国开发者社区](http://discuss.flarum.org.cn)
