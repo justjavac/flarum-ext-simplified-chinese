@@ -21,10 +21,6 @@ GitHub: https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese
     composer require jsthon/flarum-ext-simplified-chinese
 
 
-### 下载链接
-
-[选择发行版本 >>](https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese/releases)
-
 ### 安装教程
 
 [《轻论坛：Flarum 程序安装指南》](https://jsthon.com/flarum-installation-guide/)
