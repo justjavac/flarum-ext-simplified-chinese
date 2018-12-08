@@ -9,25 +9,29 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: 冻结用户
+      suspend_users_label: 禁言用户
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} 将你禁言 {timeReadable}。"
+      user_unsuspended_text: "{username} 将你解除禁言。"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: 永久冻结
-      limited_time_label: 自定义时间
+      indefinitely_label: 永久禁言
       limited_time_days_text: " 天"
-      not_suspended_label: 不冻结
-      status_heading: 冻结用户状态
+      limited_time_label: 自定义时间...
+      not_suspended_label: 不禁言
+      status_heading: 禁言状态
       submit_button: => core.ref.save_changes
-      title: "冻结 {username}"
+      title: "对 {username} 禁言"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: 冻结
+      suspended_tooltip: 该用户已被禁言
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: 冻结
+      suspend_button: 禁言

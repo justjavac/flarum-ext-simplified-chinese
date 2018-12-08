@@ -19,3 +19,4 @@ flarum-akismet:
     post:
       akismet_flagged_text: Akismet 标记为垃圾内容
       not_spam_button: 非垃圾
+

@@ -17,13 +17,13 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} 赞了你"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} 赞了你。"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: 点赞
-      liked_by_self_text: "{users} 赞了"  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} 赞了|{users} 赞了"
+      liked_by_self_text: "{users} 赞了。"  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} 赞了。|{users} 赞了。"
       others_link: => core.ref.some_others
       unlike_link: 取消赞
       you_text: => core.ref.you
@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: 有人点赞我的内容
+      notify_post_liked_label: 有人点赞了我的内容
