@@ -1,0 +1,20 @@
+flarum-statistics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Statistics dashboard widget.
+    statistics:
+      active_users_text: "{count} 个活跃用户"
+      discussions_heading: => core.ref.discussions
+      last_12_months_label: 最近 12 个月
+      last_28_days_label: 最近 28 天
+      last_7_days_label: 最近 7 天
+      posts_heading: => core.ref.posts
+      today_label: 今天
+      total_label: 总数
+      users_heading: => core.ref.users

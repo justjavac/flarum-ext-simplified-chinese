@@ -9,6 +9,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: "@用户或者回复指定内容"
       reply_to_post_text: "回复 #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
@@ -19,8 +20,8 @@ flarum-mentions:
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} 回复了它"  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} 回复了它"       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} 回复了此内容。"  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} 回复了此内容。"       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: 引用
       reply_link: => core.ref.reply
@@ -33,4 +34,4 @@ flarum-mentions:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: 提到用户
+      mentions_link: 被提到

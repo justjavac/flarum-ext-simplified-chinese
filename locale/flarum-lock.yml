@@ -16,7 +16,7 @@ flarum-lock:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: 锁定
+      locked_tooltip: 已被锁定
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -29,9 +29,9 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} 锁定了话题"
-      discussion_unlocked_text: "{username} 解锁了话题"
+      discussion_locked_text: "{username} 锁定了话题。"
+      discussion_unlocked_text: "{username} 解锁了话题。"
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: 我的话题被锁定
+      notify_discussion_locked_label: 我发起的话题被锁定了
