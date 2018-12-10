@@ -1,0 +1,26 @@
+# https://github.com/flagrow/linguist/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+flagrow-linguist:
+    admin:
+        menu:
+            title: 语言学家
+            description: 客制化翻译
+        buttons:
+            apply: 套用
+            reset: 复原
+            copy-original: 拷贝原文
+            load-more: 加载更多
+        locales:
+            all: 全部
+        placeholder:
+            not-translated: 未翻译
+            all-locales: 此处定义的文本将显示于全部语言中
+            hint: 原文内容： 
+        filters:
+            search: 搜索翻译字符串...
+            with-own-translations: 我的翻译
+            with-original-translations-in-locales: 带有原文翻译于
+            without-original-translations-in-locales: 不带原文翻译于
+            for-extension: 适用于延伸套件
+            results: 显示 {shown} 条匹配翻译，共 {total} 条 

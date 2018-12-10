@@ -1,0 +1,11 @@
+# https://github.com/FriendsOfFlarum/secure-https/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+fof-secure-https:
+  admin:
+    settings:
+      title: 设置
+      replace: 透过 HTTPS 代理图片
+  forum:
+    removed: 由于缺乏对 HTTPS 的支持因而删除了图像。
+    show: 总是显示

@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-auth-facebook.yml
+
 flarum-auth-facebook:
 
   ##
@@ -18,4 +20,4 @@ flarum-auth-facebook:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_facebook_button: 使用 Facebook 登入
+      with_facebook_button: 使用 Facebook 账号登录

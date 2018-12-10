@@ -1,28 +1,41 @@
+# https://github.com/flagrow/upload/blob/master/resources/locale/en.yml
+# Last updated: Sat, 08 Dec 2018 16:54:32 +0800
+
 flagrow-upload:
     forum:
         buttons:
             attach: 上传
         states:
-            loading: 请稍候
+            loading: 加载中
             success: 成功
-            error: 失败
+            error: 错误
     admin:
+        templates:
+          image: 默认图片下载模板
+          image_description: >
+              显示图片缩略图并经由 php 代理下载，支持统计及热链保护
+          file: 默认文件下载模板
+          file_description: >
+              显示文件名称及基本信息，经由 php 代理下载，支持统计及热链保护
+          image-preview: 完整图片预览模板
+          image-preview_description: >
+              于行内显示完整图片。不支持下载、统计及热链保护
         permissions:
             upload_label: 上传文件
             download_label: 下载文件
         upload_methods:
-            local: Local
-            aws-s3: Amazon S3
+            local: 本地
+            aws-s3: 亚马逊 S3
             imgur: Imgur
             ovh-svfs: OVH SVFS
         labels:
             preferences:
-                title: 通用设置
-                max_file_size: 最大文件大小（单位：KB）
-                mime_types: 配置文件类型及上传方式
+                title: 偏好设置
+                max_file_size: 最大文件大小 (单位 KB)
+                mime_types: 设置 MIME 类型以及上传接口
             resize:
                 title: 图片缩放
-                toggle: 图片缩放
+                toggle: 缩放图片
                 max_width: 最大图片宽度
                 max_height: 最大图片高度
             watermark:
@@ -31,43 +44,45 @@ flagrow-upload:
                 position: 水印位置
                 file: 上传水印图片
             local:
-                title: 本地储存设置
-                cdn_url: CDN 链接（文件网址前缀）
+                title: 本地存储设置
+                cdn_url: CDN 链接 (在文件前)
             imgur:
-                title: Imgur 图片设置
-                client_id: Imgur 客户端 ID
+                title: Imgur 图片存储设置
+                client_id: Imgur 用户端 ID
             aws-s3:
-                title: AWS S3 储存设置
+                title: AWS S3 存储设置
                 key: Key
                 secret: Secret
                 bucket: Bucket
-                region: Region
+                region: 区域
             ovh-svfs:
-                title: OVH SVFS 储存设置
-                container: Container
+                title: OVH SVFS 存储设置
+                container: 容器
                 tenantid: Tenant ID
-                username: Username
-                password: Password
-                region: Region
+                username: 用户名
+                password: 密码
+                region: 区域
             disable-hotlink-protection:
-                title: 停用防盗链
+                title: 停用热链保护
                 toggle: 停用
             disable-download-logging:
-                title: 停用下载日志记录
+                title: 停用下载日志
                 toggle: 停用
-
         buttons:
-            save: 保存设置
+            save: 保存更改
         help_texts:
             description: >
-                文件上传服务与设定
+                配置上传服务及偏好设置
             mime_types: >
-                配置允许的上传文件类型及方式，由正则表达式处理。
+                请于此设置映射。每一个 MIME 类型的正则表达式都将由指定的上传接口处理
+            download_templates: >
+                下载模板是上传的文件如何在论坛上显示
+                比如预览、按钮等，目前支持的有：
             resize: >
-                配置文件缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，保持横纵比不变。
+                您可以选择是否在上传图片前调整图片大小，您也可以设置图片最大长宽（px），图片大小调整将会保持图片长宽比例
             watermark: >
-                配置上传图片水印，将会添加至非 GIF 图片中。
+                在图片上传时添加水印，仅支持非 gif 图片
             disable-hotlink-protection: >
-                防盗链将保护你的文件不会被其他站点调用下载，需要 CSRF TOKEN 和 POST ID。
+                热链保护可防止从其他站点下载。目前的方式需求 csrf token 及帖文 ID
             disable-download-logging: >
-                停用下载日志记录功能。若保持开启，将可以查看下载记录及其他指标。
+                开启此设置可查看下载量及未来可能的统计数据。

@@ -1,0 +1,20 @@
+# https://github.com/MichaelBelgium/flarum-discussion-views/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+core:
+  forum:
+    index_sort:
+      popular_button: 热门
+      unpopular_button: 非热门
+
+flarum_discussion_views:
+  forum:
+    modal_resetviews:
+      title: 重设贴文浏览次数
+      submit: 提交
+      label: 设置贴文浏览次数
+    discussion_controls:
+      resetviews_button: 设置浏览次数
+  admin:
+      permissions:
+          reset_views_label: 设置贴文浏览次数

@@ -1,0 +1,12 @@
+# https://github.com/FriendsOfFlarum/formatting/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+fof-formatting:
+  admin:
+    plugins:
+      Autoimage: 转换图像链接为真实图像
+      Autovideo: 转换视频链接为可播放的视频
+      FancyPants: 使用精美的文本排版
+      HTMLEntities: 使用 HTML entities
+      MediaEmbed: 嵌入来自允许的网站的内容
+      PipeTables: ASCII 风格表格

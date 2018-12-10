@@ -1,0 +1,7 @@
+# https://github.com/MichaelBelgium/flarum-profile-views/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+flarum_profile_views:
+  forum:
+    user:
+      views_count_text: 被浏览 {viewcount} 次 

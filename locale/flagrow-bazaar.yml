@@ -1,0 +1,120 @@
+# https://github.com/flagrow/bazaar/blob/master/resources/locale/en.yml
+# Last udpated: Sat, 08 Dec 2018 16:07:23 +0800
+
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: 正在处理...
+            error: 发生错误。有关详细信息，请查阅历史记录选项卡和 Flarum 日志。不要害怕向我们反馈。
+            refresh: 刷新页面
+            close: 关闭
+            report_issue: 回报问题
+        nav:
+            title: 市场
+            description: 延伸套件市场
+        header:
+            extensions: 浏览延伸套件
+            tasks: 任务历史纪录
+        modal:
+            dashboard:
+                title: 仪表板
+                visit-remote-dashboard: 造访仪表板
+                sync:
+                    switch: 同步
+                    description: >
+                        将您的延伸套件信息与 {host} 同步，以便及时收到有关您安装的新版本延伸套件的通知。另外，我们会向您发送关于所有启用同步市场的过期延伸套件的常规通知。
+            settings:
+                title: Flagrow 市场
+                field:
+                    token:
+                        label: API token
+                        description: API token 是访问 Flagrow 延伸套件 API 所必需的。如果已经设置好了，这是好的开始！
+                    use_cron_for_tasks:
+                        label: 定时任务
+                        description: >
+                           透过允许定时任务处理市场任务，这些处理过程不太可能超时。请注意，您需要有配置定时任务的能力，请参阅 <a>wiki</a>。
+                        toggle: 使用定时任务进行任务处理
+            connect-bazaar:
+                title: 连接
+                description: >
+                    将您的 Flarum 论坛连接到 {host} 上的个人帐户以解锁高级功能; 包括一个仪表板，可以为您提供所有连接的 Flarum 的运行状况概览。当您的论坛包含过时的扩展或集中更新所有 Flarum 时，我们将添加更多功能，例如通知。
+            requirements:
+                file-permissions:
+                    title: 文件属性
+                    description: >
+                        看起来市场没有足够的权限来编写文件和/或目录，请查看下面的列表。更多相关信息，请参阅 <a>wiki</a>。
+                php-memory_limit:
+                    title: 内存限制
+                    description: >
+                        我们建议允许 PHP 至少使用 {required} 内存，您的 php.ini 目前允许 {limit}。尽管我们尝试在运行时增加内存限制，但取决于您的托管环境。更多相关信息，请参阅 <a>wiki</a>。
+        page:
+            state:
+                no_results_available: >
+                    目前没有可用项目。
+                not_authorized: >
+                    flagrow.io api 授权失败。可能是不稳定的网络连接造成的。连接稳定后，请刷新页面，如果问题仍然存在，请与我们联系。
+            button:
+                more: "更多，加载第 {current} 页，共 {total} 页"
+                install: 安装
+                uninstall: 移除
+                enable: 启用
+                disable: 停用
+                update: 更新
+                connect: 连接
+                favorite_button: "喜爱的延伸套件"
+                remove_favorite_button: "移出喜爱的延伸套件"
+                subscribe: 购买订阅
+                unsubscribe: 取消订阅
+                connect_to_subscribe: 连接市场以订阅延伸套件
+            extension:
+                installed: 延伸套件已安装
+                enabled: 延伸套件已启用
+                vendor: By {vendor}
+                downloads: 下载量
+                installed_version: 已安装的版本
+                highest_version: 最新版本
+                favorites: 最爱
+                favorited: 你的最爱
+                pending: 延伸套件等待后台任务完成
+                outdated: "延伸套件已过时，请更新至版本 {new}"
+                premium: Premium
+                subscribed: 已订阅
+                subscribe_check_failed: 看起来你取消了结帐。
+                incompatible: 与当前的 Flarum 版本不兼容
+                next_incompatible: 与未来的 Flarum 版本不兼容
+                latest_incompatible: 与最新的 Flarum 版本不兼容
+            task:
+                header:
+                    status: 状态
+                    command: 指令
+                    output: 输出
+                    time: 时间
+                    details: 详情
+                attribute:
+                    created_at: 创建于
+                    started_at: 开始于
+                    finished_at: 完成于
+                status:
+                    success: 成功
+                    exception: 发生异常
+                    working: 工作正在进行中
+                    unknown: 未知
+                command:
+                    sync-lock: 同步 composer.lock 文件
+                    sync-version: 同步 {extension} 版本
+                    install: 安装 {extension}
+                    update: 更新 {extension}
+                    uninstall: 移除 {extension}
+                group:
+                    today: 今天
+                    lastmonth: 上月
+                    older: 更早
+        search:
+            placeholder: 搜索延伸套件
+            filter_installed: 已安装
+            filter_update: 有更新
+            filter_favorited: 喜爱的
+            filter_subscribed: 已订阅
+            filter_premium: Premium
+            filter_pending: 待定
+            filter_languages: 语言

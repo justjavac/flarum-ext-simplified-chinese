@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-auth-twitter.yml
+
 flarum-auth-twitter:
 
   ##
@@ -18,4 +20,4 @@ flarum-auth-twitter:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: 使用 Twitter 登入
+      with_twitter_button: 使用 Twitter 帐号登录

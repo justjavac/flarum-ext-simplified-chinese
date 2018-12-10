@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-auth-github.yml
+
 flarum-auth-github:
 
   ##
@@ -18,4 +20,4 @@ flarum-auth-github:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_github_button: 使用 GitHub 登入
+      with_github_button: 透过 GitHub 帐号登录
