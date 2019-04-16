@@ -22,7 +22,7 @@ GitHub: https://github.com/CNMathon/flarum-ext-simplified-chinese
 
 [Issuse on GitHub>>](https://github.com/CNMathon/flarum-ext-simplified-chinese/issues)  
 
-友情链接
+### 友情链接
 
 [Flarum 官网>>](http://flarum.org)
 
