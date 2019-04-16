@@ -14,7 +14,7 @@ GitHub: https://github.com/CNMathon/flarum-ext-simplified-chinese
 
 ### 安装方式
 
-    将该文件直接覆盖倒中文语言包上即可完成安装
+    将该文件直接覆盖至原有的中文语言包上即可完成安装。
 
 ### 联系作者
 如有疑问或建议  
