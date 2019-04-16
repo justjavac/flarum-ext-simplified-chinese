@@ -24,10 +24,10 @@ GitHub: https://github.com/CNMathon/flarum-ext-simplified-chinese
 
 ### 友情链接
 
-[Flarum 官网>>](http://flarum.org)
+[Flarum 官网](http://flarum.org)
 
-[Flarum 中国开发者社区>>](http://discuss.flarum.org.cn)
+[Flarum 中国开发者社区](http://discuss.flarum.org.cn)
 
-[幻影官网>>](http://www.hypin.cn)
+[幻影官网](http://www.hypin.cn)
 
-[幻影论坛>>](http://bbs.hypin.cn)
+[幻影论坛](http://bbs.hypin.cn)
