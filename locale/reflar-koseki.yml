@@ -1,0 +1,18 @@
+# https://github.com/ReFlar/koseki/blob/master/resources/locale/en.yaml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+reflar-koseki:
+    forum:
+        by: 由
+        forum: 论坛
+        forums: 论坛
+        last_post: 最新回复
+        statistics: 统计数字
+        topics: 贴文
+        posts: 回复
+        posts_title: 回复
+        topics_title: 贴文
+        members: 会员
+        welcome_members: 欢迎新会员
+        forum_stats: 论坛统计数字
+        whats_on: 怎么回事？

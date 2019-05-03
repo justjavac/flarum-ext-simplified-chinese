@@ -1,0 +1,42 @@
+# https://github.com/ReFlar/polls/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+reflar-polls:
+  admin:
+    permissions:
+      moderate: 编辑及删除投票
+      start: 添加投票
+      vote: 投票
+      self_edit: 允许用户修改自己的投票
+  forum:
+    no_permission: 你没有权限投票
+    poll_ended: 此投票已结束
+    days_remaining: "投票将于 {time} 结束"
+    public_poll: 查看投票人
+    votes_modal:
+      title: 投票人
+    modal:
+      submit: 提交
+      no_voters: 暂无投票
+      switch: 允许查看投票人
+      min: 最少需要两个选项
+      max: 最多只能有十个选项
+      include_question: 必须填写问题
+      date_placeholder: 投票结束日期 (可选)
+      answer_placeholder: 选项
+      add: 增加选项
+      question_placeholder: 问题
+      add_title: 添加投票
+      edit_title: 编辑投票
+      answers: 选项
+    moderation:
+      edit: 编辑投票
+      delete: 删除投票
+      delete_confirm: 你是否确定要删除此投票?
+    composer_discussion:
+      add_poll: 添加投票
+      edit: => reflar-polls.forum.moderation.edit
+    tooltip:
+      votes: 票
+      vote: 票
+      badge: 投票

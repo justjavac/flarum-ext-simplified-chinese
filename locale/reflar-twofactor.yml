@@ -1,0 +1,37 @@
+# https://github.com/ReFlar/twofactor/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+reflar-twofactor:
+  forum:
+    text: "Your {forum} verification code is: {code}"
+    accountlabel: 双因素认证
+    incorrect_2fa: 无效的认证码
+    2fa_disabled: 双因素认证已停用
+    2fa_enabled: 双因素认证已启用
+    modal:
+      twofactor_title: 双因素认证设置
+      heading: 双因素认证设置
+      switch: 双因素认证
+      2fa_heading: 双因素认证编码
+      helpQR: 扫描 QR 图码，或者手动添加编码至 Google Authenticator 或其他 TOTP 应用程序。
+      helpPhone: '选择你的运营商，填入电话号码并点击「保存电话号码」'
+      submitPhone: 保存电话号码
+      placeholder: 动态密码
+      button: 送出
+      2fa_help: 输入来自短信或 TOTP 应用程序的动态密码
+      close: 我已保存我的条码
+      recov: 恢复条码
+      login_title: 双因素认证
+      recov_help1: 请保存这些编码，它们将不会再显示！
+      recov_help2: 这是在没有 TOTP 应用程序访问权限时访问帐户的唯一方式。
+      stPhone: 切换至电话设置
+      stTOTP: 切换至 TOTP 设置
+      back: 返回
+  admin:
+      settings:
+        title: 双因素认证
+        help: 从 twilio.com/console 取得你的帐户 SID 和 Auth Token，或者从 twilio.com/console/phone-numbers/incoming 取得你的电话号码 
+        enable: 启用 Twillio
+        sid: Twillio 帐户 SID
+        token: Twillio Auth Token
+        number: Twillio 电话号码

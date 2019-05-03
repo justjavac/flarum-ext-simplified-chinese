@@ -1,0 +1,47 @@
+# https://github.com/ReFlar/reactions/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+reflar-reactions:
+  forum:
+    warning: 你的回应将被覆盖
+    notification: '{username} 使用{reaction}回应了你的帖文'
+    settings:
+        notify_post_reacted_label: 某人回应了你的贴文
+
+  admin:
+    permissions:
+        react_posts_label: 回应帖文
+  
+    nav:
+      desc: 添加自定义回应及更改设置
+
+    page:
+      reactions:
+        title: 自定义回应
+        reactions: 现有回应
+        Helptext: 键入 emoji 或 font-awesome 的名称并选择你喜欢的类型
+        help:
+          identifier: 标识
+
+      convert:
+        help: 若你只是更新延伸套件，你的回应将被转换。若你已安装此延伸套件，你可以安心地忽略这条消息。
+        button: 转换旧地回应
+        converting: 正在转换回应中，请于几分钟后重载页面以查看进度。（转换需时依赖于你的回应数量）
+        converted: "成功转换全部 {number} 个赞"
+
+      settings:
+        save_settings: 保存设置
+        integrations:
+          legend: 融合
+          warning: 相同的回应<strong>不会</strong>转换为「喜欢」和「顶」
+          gamification:
+            legend: 游戏化
+            upvoteLabel: 转换回应为「顶」
+            upvoteHelptext: 键入你想要自动转换为「顶」的回应的标识
+            downvoteLabel: 转换回应为「踩」
+            downvoteHelptext: 键入你想要自动转换为「踩」的回应的标识
+
+          likes:
+            legend: 喜欢
+            Label: 转换回应为「喜欢」
+            Helptext: 键入你想要自动转换为「喜欢」的回应的标识

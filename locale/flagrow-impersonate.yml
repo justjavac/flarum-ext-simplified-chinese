@@ -1,0 +1,11 @@
+# https://github.com/flagrow/impersonate/blob/master/resources/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
+flagrow-impersonate:
+    admin:
+        permissions:
+            login: 以其他身分登录
+
+    forum:
+        user_controls:
+            impersonate_button: 伪装身分

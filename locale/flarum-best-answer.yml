@@ -1,12 +1,15 @@
+# https://github.com/wiwatsrt/flarum-ext-best-answer/blob/master/locale/en.yml
+# Sat, 08 Dec 2018 16:54:32 +0800
+
 flarum-best-answer:
     admin:
         permissions:
             best_answer: => flarum-best-answer.ref.best_answer
     forum:
-        this_best_answer: "采纳"
-        remove_best_answer: "取消采纳"
-        header_best_answer: "话题作者采纳最佳"
+        this_best_answer: "设为最佳"
+        remove_best_answer: "移除最佳"
+        header_best_answer: "最佳回复 - 楼主的选择"
         best_answer_button: => flarum-best-answer.ref.best_answer
-        best_answer: 已采纳
+        best_answer: => flarum-best-answer.ref.best_answer
     ref:
-      best_answer: '采纳最佳'
+      best_answer: '最佳回复'

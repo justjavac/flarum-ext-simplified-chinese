@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-subscriptions.yml
+
 flarum-subscriptions:
 
   ##
@@ -16,7 +18,7 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: 取消关注
-      unignore_button: 取消忽视
+      unignore_button: 取消无视
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,31 +26,31 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} 回复了你关注的内容"
+      new_post_text: "{username} 回复了你关注的贴文"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: 自动关注我回复的话题
-      notify_new_post_label: 关注的话题被回复
+      follow_after_reply_label: 自动关注我回复的贴文
+      notify_new_post_label: 关注的贴文有新回复
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: 当有人回复此话题时提醒我
+      following_text: 有新回复时通知我
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: 不接收任何提醒并隐藏话题
-      not_following_button: 常规
-      not_following_text: "仅在有人@提到我时提醒我"
-      notify_alert_tooltip: 有新回复时通知提醒
+      ignoring_text: 不接收任何通知并从贴文列表中隐藏。
+      not_following_button: 不关注
+      not_following_text: "仅当被提及时通知我"
+      notify_alert_tooltip: 有新回复时发送通知
       notify_email_tooltip: 有新回复时发送邮件
 
   ##
-  # REUSED STRINGS - These keys should not be used directly in code!
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: 关注
     following: 关注
-    ignoring: 忽视
+    ignoring: 无视

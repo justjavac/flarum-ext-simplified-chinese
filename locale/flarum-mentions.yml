@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-mentions.yml
+
 flarum-mentions:
 
   ##
@@ -9,18 +11,19 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "回复 #{number}"
+      mention_tooltip: 提及某人或贴文
+      reply_to_post_text: "回复给 #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} 回复了你的内容"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} 提到了你"
+      post_mentioned_text: "{username} 回复了你的贴文"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} 提及了你"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} 回复了它"  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} 回复了它"       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} 回复了此帖"  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} 回复了此帖"       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: 引用
       reply_link: => core.ref.reply
@@ -28,9 +31,9 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: 有人回复了我
-      notify_user_mentioned_label: 有人提到了我
+      notify_post_mentioned_label: 有人回复了你
+      notify_user_mentioned_label: 有人提及了你
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: 提到用户
+      mentions_link: 提及

@@ -1,3 +1,5 @@
+# https://github.com/flarum/flarum-ext-english/blob/master/locale/flarum-pusher.yml
+
 flarum-pusher:
 
   ##
@@ -20,4 +22,4 @@ flarum-pusher:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "有 {count} 个话题有新动态|有 {count} 个话题有新动态"
+      show_updates_text: "有 {count} 条新贴文|有 {count} 条新贴文"
